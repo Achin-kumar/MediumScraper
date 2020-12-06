@@ -18,6 +18,7 @@ npm install
 
 ### Usage
 
+```js
   const { getLink } = require('./getLinks')
   const links = new getLink(); // optional path parameter with default directory as the base folder
   links.getlinks('https://medium.com')
